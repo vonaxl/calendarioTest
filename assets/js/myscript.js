@@ -10,6 +10,6 @@ $(document).ready(function() {
             var gg = moment(giorni,'MM').daysInMonth();
             var mese = moment(giorni,'MM').format('MMMM'); 
             $('#mese').html(mese);
-            $('#gg').html(gg);
+            $('#gg').html(gg+' giorni');
         });
 });
